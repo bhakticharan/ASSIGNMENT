@@ -4,6 +4,7 @@ using namespace std;
 int main()
 {
     int i,a,j=0;
+    cout<<"enter a number: ";
     cin>>a;
     if(a>0){
     for(i=0;i<a/4;i++)

@@ -8,6 +8,7 @@ using namespace std;
 int main()
 {
     int num,j;
+    cout<<"enter a value of n: ";
     cin>>num;
     int i;
     for(i=1;i<=3*num;i=i+num)

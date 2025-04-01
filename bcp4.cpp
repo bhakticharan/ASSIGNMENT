@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
     int a,b,m=0,r;
+    cout<<"enter a decimal number: ";
     cin>>a;
     b=a;
     r=a;
@@ -37,7 +38,7 @@ int main()
 
         a=a/2;
       }
-      cout<<"binary"<<endl;
+      cout<<"binary: ";
     for(i=n-1;i>=0;i--)
     {
       cout<<arr[i];
@@ -49,7 +50,7 @@ int main()
       c=c/8;
       j=j+1;
     }
-    cout<<"\noctal"<<endl;
+    cout<<"\noctal: ";
     for(i=m-1;i>=0;i--)
     {
       cout<<arr1[i];

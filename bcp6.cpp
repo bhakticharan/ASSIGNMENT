@@ -7,6 +7,7 @@
 using namespace std;
 int main()
 {    int n,i,j,num;
+    cout<<"enter a value of n: ";
     cin>>num;
     n=1;
     while(n<=num)
